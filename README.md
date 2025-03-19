@@ -9,7 +9,7 @@ This project follows a custom structure:
   - `core/`: Main application
 - `venv/`: Virtual environment (not tracked in git)
 
-### 🔍 Previus Requeriments
+## 🔍 Previus Requeriments
 
 -   Python >= 3.7
 -   Any text editor
