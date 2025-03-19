@@ -28,7 +28,6 @@ Follow these steps to create a project using Django:
     python -m venv venv
     .\venv\Scripts\activate
     ```
-    > [!NOTE]
     > If `.\venv\Scripts\activate` use this code first `Set-ExecutionPolicy Unrestricted -Scope Process`. This allows the use of scripts in the system.
 
 3.  **Create a source directory**
