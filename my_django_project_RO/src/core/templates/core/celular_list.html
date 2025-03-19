@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Celulares</h1>
+  <ul>
+    {% for celular in celulares %}
+      <li>{{ celular.Modelo }} - {{ celular.Marca }} - {{ celular.created_at|date:"d/m/Y" }}</li>
+    {% empty %}
+      <li>No hay elementos.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
